@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:5000/api";
+// const BASE_URL = "http://localhost:5000/api";
+ const BASE_URL = "https://secretsanta-backend.vercel.app/api";
 
 export const getAvailableNumbers = async () => {
   const res = await fetch(`${BASE_URL}/available-numbers`);

@@ -4,7 +4,7 @@ function Admin() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/all")
+    fetch("https://secretsanta-backend.vercel.app/api/all")
       .then((res) => res.json())
       .then((d) => setData(d));
   }, []);
