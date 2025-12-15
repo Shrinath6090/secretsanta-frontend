@@ -8,7 +8,7 @@ export default function MainRoutes() {
     <BrowserRouter>
       <Routes>
         {/* Home → Nomination Form */}
-        <Route path="/secretNomination6754" element={<App />} />
+        <Route path="/secretNomination7432" element={<App />} />
 
         {/* Admin / Table View */}
         <Route path="/allNominationList898" element={<NominationsTable />} />
